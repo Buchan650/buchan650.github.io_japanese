@@ -3,7 +3,7 @@
 *{
     box-sizing: border-box;
     font-size: 16px;
-    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Krona One', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -26,7 +26,7 @@ h3{
 }
 
 p{
-    font-family: 'Zen Kurenaido', sans-serif;
+    font-family: "Playfair Display";
     line-height: 2rem;
 }
 h4{
@@ -35,7 +35,7 @@ h4{
 }
 
 li{
-    font-family: 'Zen Kurenaido', sans-serif;
+    font-family: "Playfair Display";
 }
 
 @media only screen and (max-width : 768px){
@@ -120,7 +120,7 @@ nav h1 span{
 
 nav ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
 }
 
@@ -132,7 +132,6 @@ nav ul{
 .navbarlinks a{
     text-decoration: none;
     color: #FA4C3C;
-    font-size: 1.5rem;
 }
 
 .navbarlinks a:visited{
@@ -147,8 +146,12 @@ nav ul{
 .navbarlinks a:active{
     color: #fff;
 }
+nav img{
+    width: 2rem;
+    height: auto;
+}
 
-@media only screen and (max-width : 768px){
+@media only screen and (max-width : 820px){
     nav{
         display: flex;
         flex-direction: column;
@@ -176,6 +179,12 @@ nav ul{
         margin: 0;
     }
 
+    .navbarlinks a{
+        font-size: 1.2rem;
+        padding-bottom: 0;
+    }
+}
+@media only screen and (max-width: 425px){
     .navbarlinks a{
         font-size: 1rem;
         padding-bottom: 0;
@@ -221,6 +230,12 @@ nav ul{
         width: 100%;
     }
 }    
+@media only screen and (max-width : 820px){
+    #banner{
+        margin:12rem auto 0;
+        scroll-margin-top: 13rem;
+    }
+}
 /*Education*/
 
 #education{
@@ -504,8 +519,8 @@ iframe{
     color:#C73C30;
 }
 
-#footnav i{
-    margin: 1rem;
+i {
+    margin: .25rem;
   }
 
 @media only screen and (max-width : 768px){
